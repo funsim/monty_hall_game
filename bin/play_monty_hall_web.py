@@ -61,4 +61,4 @@ def statistics():
     return "<h1>Statistics</h1>{}".format(stats)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
