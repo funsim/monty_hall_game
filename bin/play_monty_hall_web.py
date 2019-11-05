@@ -2,6 +2,7 @@
 
 # File: game_server.py
 import uuid
+import os
 from flask import Flask
 from flask import render_template
 from flask import request
